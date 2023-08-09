@@ -21,3 +21,9 @@ except Exception as error:
     print("Error: ", error)
 
 my_posts = [{"title": "title 1", "content": "content1", "id": 1}]
+
+@app.post("/createposts")
+def create_posts(post:Post):
+     print(post)
+     print(post.dict())
+     return {"data":post}
