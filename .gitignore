@@ -1,0 +1,56 @@
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Python virtual environment
+venv/
+ENV/
+
+# Environment variables
+.env
+
+# Dependency directories
+/lib/
+/lib64/
+/include/
+/bin/
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Compiled files
+*.class
+*.jar
+*.war
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Compiled extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Compiled databases
+*.sqlite3
+*.db
+
+# Sensitive or private configuration
+config.py
+secrets.json
+
+# Local development configuration
+settings_local.py
+
+# Development artifacts
+*.bak
+*.tmp
+*.temp
+
+# Other project-specific entries
