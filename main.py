@@ -22,7 +22,7 @@ except Exception as error:
 
 my_posts = [{"title": "title 1", "content": "content1", "id": 1}]
 
-@app.post("/createposts")
+@app.post("/posts")
 def create_posts(post:Post):
      print(post)
      print(post.dict())
