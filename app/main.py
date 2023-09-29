@@ -1,6 +1,7 @@
 from typing import Optional, List
 from fastapi import FastAPI, Response, status, HTTPException, Depends
 from fastapi.params import Body
+from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from random import randrange
@@ -16,6 +17,16 @@ from .routers import post, user, auth, vote
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
+
+origins = ["*"]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # while True:
 
