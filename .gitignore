@@ -42,7 +42,6 @@ ENV/
 *.db
 
 # Sensitive or private configuration
-config.py
 secrets.json
 
 # Local development configuration
