@@ -88,7 +88,7 @@ def delete_post(id: int, db: Session = Depends(get_db), current_user: int = Depe
                             detail="Not authorized to perform requested action")
 
     post_query.delete(synchronize_session=False)
-    db.commit()
+    db.commit() 
 
     return Response(status_code=status.HTTP_204_NO_CONTENT)
 
