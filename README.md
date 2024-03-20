@@ -1,6 +1,9 @@
 
 Attempt to build fully-featured API that includes authentication, CRUD operations, schema validation, and comprehensive documentation. Extends beyond basic API development to cover the tooling and testing for a complete and robust API.
 
+Swagger documentation:
+![postflow_screenshot](https://github.com/raymondlang/postflow-fastapi/assets/16345938/3da65f85-05fa-421f-be70-eb0abe170a4e)
+
 ## Technologies
 
 API:
