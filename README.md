@@ -1,6 +1,16 @@
 
 Attempt to build fully-featured API that includes authentication, CRUD operations, schema validation, and comprehensive documentation. Extends beyond basic API development to cover the tooling and testing for a complete and robust API.
 
+## Technologies
+
+API:
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+Deployed with: 
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+
 ## Features
 
 * Authentication: Implemented secure authentication mechanisms to protect the API.
